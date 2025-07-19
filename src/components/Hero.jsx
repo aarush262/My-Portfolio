@@ -15,8 +15,6 @@ const Hero = () => {
       id="home"
       className="relative bg-white min-h-screen flex flex-col-reverse md:flex-row items-center justify-around px-4 md:px-6 lg:px-10 py-12"
     >
-      {/* 🔮 Purple Blur Behind Image */}
-
       {/* 📝 Left: Animated Text */}
       <motion.div
         initial={{ opacity: 0, x: -80 }}
@@ -178,12 +176,12 @@ const Hero = () => {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
         viewport={{ once: false, amount: 0.3 }}
-        className="md:w-1/2 mb-10 md:mb-0 flex justify-center md:justify-end"
+        className="md:w-1/2 mb-10 md:mb-0 flex justify-center md:justify-end bg-transparent"
       >
         <img
           src={myPhoto}
           alt="Aarush"
-          className="w-[460px] md:w-[580px] lg:w-[620px] object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)] rounded-none"
+          className="w-[460px] md:w-[580px] lg:w-[620px] object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)]"
         />
       </motion.div>
 
