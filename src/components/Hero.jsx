@@ -16,7 +16,6 @@ const Hero = () => {
       className="relative bg-white min-h-screen flex flex-col-reverse md:flex-row items-center justify-around px-4 md:px-6 lg:px-10 py-12"
     >
       {/* 🔮 Purple Blur Behind Image */}
-      {/*<div className="absolute -z-10 w-[450px] h-[450px] bg-purple-200 rounded-full blur-3xl top-20 right-10 opacity-50"></div>*/}
 
       {/* 📝 Left: Animated Text */}
       <motion.div
