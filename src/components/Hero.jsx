@@ -183,7 +183,7 @@ const Hero = () => {
         <img
           src={myPhoto}
           alt="Aarush"
-          className="w-[460px] md:w-[580px] lg:w-[620px] object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)]"
+          className="w-[460px] md:w-[580px] lg:w-[620px] object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)] rounded-none"
         />
       </motion.div>
 
