@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative bg-white min-h-screen flex flex-col-reverse md:flex-row items-center justify-around px-4 md:px-6 lg:px-10 py-12"
+      className="relative bg-white min-h-screen flex flex-col md:flex-row items-center justify-around gap-10 md:gap-0 px-4 md:px-6 lg:px-10 py-12"
     >
       {/* 📝 Left: Animated Text */}
       <motion.div
